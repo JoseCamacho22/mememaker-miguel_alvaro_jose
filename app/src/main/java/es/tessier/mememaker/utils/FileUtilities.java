@@ -23,7 +23,7 @@ public class FileUtilities {
     private static final int TAM_BUFFER = 1024;
 
     public static void saveAssetImage(Context context, String assetName) {
-        File fileDirectory = context.getFilesDir();
+        File fileDirectory = getFileDirectory(context);
 
         File fileToWrite = new File(fileDirectory, assetName);
 
@@ -61,6 +61,10 @@ public class FileUtilities {
         }
 
 
+    }
+
+    private static File getFileDirectory(Context context) {
+        return context.getFilesDir();
     }
 
 
