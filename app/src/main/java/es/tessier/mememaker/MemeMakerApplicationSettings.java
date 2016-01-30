@@ -21,8 +21,19 @@ public class MemeMakerApplicationSettings {
 
     }
 
-    public String getStoragePreference() {
+    public String getStoragePreference(){
 
         return mSharedPreferences.getString(KEY_STORAGE, StorageType.INTERNAL);
     }
+
+
+    public void setSharedPreference(String storageType){
+
+        mSharedPreferences
+                .edit()
+                .putString(KEY_STORAGE,StorageType.INTERNAL)
+                .apply();
+
+    }
 }
+
