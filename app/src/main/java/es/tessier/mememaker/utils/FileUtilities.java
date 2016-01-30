@@ -19,6 +19,7 @@ import java.io.InputStream;
 public class FileUtilities {
 
     private static final String TAG = FileUtilities.class.getName();
+    private static final int TAM_BUFFER = 1024;
 
     public static void saveAssetImage(Context context, String assetName) {
         File fileDirectory = context.getFilesDir();
@@ -37,6 +38,7 @@ public class FileUtilities {
                     context.MODE_PRIVATE);
 
             out = new FileOutputStream(fileToWrite);
+            copyFile(in, out);
 
 
         } catch (FileNotFoundException e) {
@@ -59,6 +61,18 @@ public class FileUtilities {
 
 
     }
+
+
+    private static void copyFile (InputStream in, FileOutputStream out) throws IOException {
+
+        byte[] buffer = new byte[TAM_BUFFER];
+        int read;
+        while ((read = in.read(buffer)) != -1) {
+            out.write(buffer, 0, read);
+        }
+    }
+
+
 
     public static Uri saveImageForSharing(Context context, Bitmap bitmap,  String assetName) {
         File fileToWrite = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES), assetName);
