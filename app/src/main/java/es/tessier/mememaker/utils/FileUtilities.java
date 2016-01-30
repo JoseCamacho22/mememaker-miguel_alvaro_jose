@@ -14,6 +14,8 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
+import es.tessier.mememaker.MemeMakerApplicationSettings;
+
 /**
  * Created by Evan Anger on 7/28/14.
  */
@@ -21,6 +23,7 @@ public class FileUtilities {
 
     private static final String TAG = FileUtilities.class.getName();
     private static final int TAM_BUFFER = 1024;
+    private static final String ALBUM_NAME = "mememaker";
 
     public static void saveAssetImage(Context context, String assetName) {
         File fileDirectory = getFileDirectory(context);
@@ -64,8 +67,44 @@ public class FileUtilities {
     }
 
     private static File getFileDirectory(Context context) {
-        return context.getFilesDir();
+
+        MemeMakerApplicationSettings settings = new MemeMakerApplicationSettings(context);
+        String storageType = settings.getStoragePreference();
+
+        if (storageType.equals(StorageType.INTERNAL)) {
+            return context.getFilesDir();
+        } else {
+
+            //que comprobará si está disponible el almacenamiento externo
+
+            if (isExternalStorageAvailable()) {
+                if (storageType.equals(StorageType.PRIVATE_EXTERNAL))
+                    return context.getExternalFilesDir(null);
+                else {
+                    //En caso de que queramos que puedan ser accedidas por otras aplicaciones
+                    File file = new File(Environment.getExternalStoragePublicDirectory(
+                            Environment.DIRECTORY_PICTURES), ALBUM_NAME);
+                    if (!file.mkdirs()) {
+                        Log.e(TAG, "Directory not created");
+                    }
+                    return file;
+
+                }
+            }
+        }
+
+        return null;
     }
+
+
+    private static boolean isExternalStorageAvailable() {
+        String state = Environment.getExternalStorageState();
+
+        if(state.equals(Environment.MEDIA_MOUNTED))
+            return true;
+        else return false;
+    }
+
 
 
     private static void copyFile(InputStream in, FileOutputStream out) throws IOException {
@@ -120,15 +159,18 @@ public class FileUtilities {
 
                     @Override
                     public boolean accept(File pathname) {
-                        String name = pathname.getName()
-                                .toLowerCase();
-                        if (name.endsWith(".jpg"))
+                        if(pathname.getAbsolutePath().contains("jpg")) {
                             return true;
-                        if (name.endsWith(".png"))
+                        }
+                        else if(pathname.getAbsolutePath().contains("png")) {
                             return true;
-                        return false;
+                        }
+                        else return false;
+
                     }
                 });
+
+
         return filteredFiles;
     }
 
