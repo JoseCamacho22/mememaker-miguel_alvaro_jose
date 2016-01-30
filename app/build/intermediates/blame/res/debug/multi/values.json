@@ -656,15 +656,7 @@
                     "endOffset": 245
                 },
                 "from": {
-                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/array.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 392,
-                        "endLine": 18,
-                        "endColumn": 19,
-                        "endOffset": 582
-                    }
+                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/array.xml"
                 }
             },
             {
@@ -677,15 +669,7 @@
                     "endOffset": 452
                 },
                 "from": {
-                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/array.xml",
-                    "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 588,
-                        "endLine": 26,
-                        "endColumn": 19,
-                        "endOffset": 790
-                    }
+                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/array.xml"
                 }
             },
             {
@@ -698,15 +682,7 @@
                     "endOffset": 618
                 },
                 "from": {
-                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/array.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endLine": 6,
-                        "endColumn": 19,
-                        "endOffset": 216
-                    }
+                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/array.xml"
                 }
             },
             {
@@ -719,15 +695,7 @@
                     "endOffset": 789
                 },
                 "from": {
-                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/array.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 221,
-                        "endLine": 11,
-                        "endColumn": 19,
-                        "endOffset": 387
-                    }
+                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/array.xml"
                 }
             },
             {
@@ -739,14 +707,7 @@
                     "endOffset": 837
                 },
                 "from": {
-                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/colors.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 103,
-                        "endColumn": 47,
-                        "endOffset": 146
-                    }
+                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/colors.xml"
                 }
             },
             {
@@ -758,14 +719,7 @@
                     "endOffset": 885
                 },
                 "from": {
-                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/colors.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 47,
-                        "endOffset": 98
-                    }
+                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/colors.xml"
                 }
             },
             {
@@ -777,14 +731,7 @@
                     "endOffset": 943
                 },
                 "from": {
-                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/dimens.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 88,
-                        "endColumn": 57,
-                        "endOffset": 141
-                    }
+                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/dimens.xml"
                 }
             },
             {
@@ -796,14 +743,7 @@
                     "endOffset": 999
                 },
                 "from": {
-                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/dimens.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 146,
-                        "endColumn": 55,
-                        "endOffset": 197
-                    }
+                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/dimens.xml"
                 }
             },
             {
@@ -815,14 +755,7 @@
                     "endOffset": 1051
                 },
                 "from": {
-                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 25,
-                        "startColumn": 4,
-                        "startOffset": 1417,
-                        "endColumn": 51,
-                        "endOffset": 1464
-                    }
+                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -834,14 +767,7 @@
                     "endOffset": 1096
                 },
                 "from": {
-                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 559,
-                        "endColumn": 44,
-                        "endOffset": 599
-                    }
+                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -853,14 +779,7 @@
                     "endOffset": 1149
                 },
                 "from": {
-                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 506,
-                        "endColumn": 52,
-                        "endOffset": 554
-                    }
+                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -872,14 +791,7 @@
                     "endOffset": 1202
                 },
                 "from": {
-                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 1027,
-                        "endColumn": 52,
-                        "endOffset": 1075
-                    }
+                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -891,14 +803,7 @@
                     "endOffset": 1250
                 },
                 "from": {
-                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 56,
-                        "endColumn": 47,
-                        "endOffset": 99
-                    }
+                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -910,14 +815,7 @@
                     "endOffset": 1305
                 },
                 "from": {
-                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 972,
-                        "endColumn": 54,
-                        "endOffset": 1022
-                    }
+                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -929,14 +827,7 @@
                     "endOffset": 1363
                 },
                 "from": {
-                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 673,
-                        "endColumn": 57,
-                        "endOffset": 726
-                    }
+                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -948,14 +839,7 @@
                     "endOffset": 1461
                 },
                 "from": {
-                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 731,
-                        "endColumn": 97,
-                        "endOffset": 824
-                    }
+                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -967,14 +851,7 @@
                     "endOffset": 1559
                 },
                 "from": {
-                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 829,
-                        "endColumn": 97,
-                        "endOffset": 922
-                    }
+                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -986,14 +863,7 @@
                     "endOffset": 1604
                 },
                 "from": {
-                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 927,
-                        "endColumn": 44,
-                        "endOffset": 967
-                    }
+                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -1005,14 +875,7 @@
                     "endOffset": 1673
                 },
                 "from": {
-                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 604,
-                        "endColumn": 68,
-                        "endOffset": 668
-                    }
+                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -1024,14 +887,7 @@
                     "endOffset": 1743
                 },
                 "from": {
-                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 264,
-                        "endColumn": 69,
-                        "endOffset": 329
-                    }
+                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -1043,14 +899,7 @@
                     "endOffset": 1800
                 },
                 "from": {
-                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 152,
-                        "endColumn": 56,
-                        "endOffset": 204
-                    }
+                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -1062,14 +911,7 @@
                     "endOffset": 1848
                 },
                 "from": {
-                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 104,
-                        "endColumn": 47,
-                        "endOffset": 147
-                    }
+                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -1081,14 +923,7 @@
                     "endOffset": 1903
                 },
                 "from": {
-                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 209,
-                        "endColumn": 54,
-                        "endOffset": 259
-                    }
+                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -1100,14 +935,7 @@
                     "endOffset": 1947
                 },
                 "from": {
-                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 24,
-                        "startColumn": 4,
-                        "startOffset": 1373,
-                        "endColumn": 43,
-                        "endOffset": 1412
-                    }
+                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -1119,14 +947,7 @@
                     "endOffset": 2000
                 },
                 "from": {
-                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 381,
-                        "endColumn": 52,
-                        "endOffset": 429
-                    }
+                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -1138,14 +959,7 @@
                     "endOffset": 2047
                 },
                 "from": {
-                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 334,
-                        "endColumn": 46,
-                        "endOffset": 376
-                    }
+                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -1159,11 +973,11 @@
                 "from": {
                     "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/strings.xml",
                     "position": {
-                        "startLine": 10,
+                        "startLine": 27,
                         "startColumn": 4,
-                        "startOffset": 434,
+                        "startOffset": 1521,
                         "endColumn": 71,
-                        "endOffset": 501
+                        "endOffset": 1588
                     }
                 }
             },
@@ -1172,17 +986,17 @@
                     "startLine": 49,
                     "startColumn": 4,
                     "startOffset": 2124,
-                    "endColumn": 72,
-                    "endOffset": 2192
+                    "endColumn": 51,
+                    "endOffset": 2171
                 },
                 "from": {
                     "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/strings.xml",
                     "position": {
-                        "startLine": 23,
+                        "startLine": 26,
                         "startColumn": 4,
-                        "startOffset": 1300,
-                        "endColumn": 72,
-                        "endOffset": 1368
+                        "startOffset": 1469,
+                        "endColumn": 51,
+                        "endOffset": 1516
                     }
                 }
             },
@@ -1190,99 +1004,86 @@
                 "to": {
                     "startLine": 50,
                     "startColumn": 4,
-                    "startOffset": 2197,
-                    "endColumn": 80,
-                    "endOffset": 2273
+                    "startOffset": 2176,
+                    "endColumn": 71,
+                    "endOffset": 2243
                 },
                 "from": {
-                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 22,
-                        "startColumn": 4,
-                        "startOffset": 1219,
-                        "endColumn": 80,
-                        "endOffset": 1295
-                    }
+                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 51,
                     "startColumn": 4,
-                    "startOffset": 2278,
-                    "endColumn": 78,
-                    "endOffset": 2352
+                    "startOffset": 2248,
+                    "endColumn": 72,
+                    "endOffset": 2316
                 },
                 "from": {
-                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 1140,
-                        "endColumn": 78,
-                        "endOffset": 1214
-                    }
+                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 52,
                     "startColumn": 4,
-                    "startOffset": 2357,
-                    "endColumn": 59,
-                    "endOffset": 2412
+                    "startOffset": 2321,
+                    "endColumn": 80,
+                    "endOffset": 2397
                 },
                 "from": {
-                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 1080,
-                        "endColumn": 59,
-                        "endOffset": 1135
-                    }
+                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 53,
                     "startColumn": 4,
-                    "startOffset": 2417,
-                    "endLine": 55,
-                    "endColumn": 12,
-                    "endOffset": 2545
+                    "startOffset": 2402,
+                    "endColumn": 78,
+                    "endOffset": 2476
                 },
                 "from": {
-                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/styles.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 54,
-                        "endLine": 5,
-                        "endColumn": 12,
-                        "endOffset": 182
-                    }
+                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 56,
+                    "startLine": 54,
                     "startColumn": 4,
-                    "startOffset": 2550,
-                    "endLine": 58,
-                    "endColumn": 12,
-                    "endOffset": 2641
+                    "startOffset": 2481,
+                    "endColumn": 59,
+                    "endOffset": 2536
                 },
                 "from": {
-                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/styles.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 188,
-                        "endLine": 9,
-                        "endColumn": 12,
-                        "endOffset": 279
-                    }
+                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 2541,
+                    "endLine": 57,
+                    "endColumn": 12,
+                    "endOffset": 2669
+                },
+                "from": {
+                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 2674,
+                    "endLine": 60,
+                    "endColumn": 12,
+                    "endOffset": 2765
+                },
+                "from": {
+                    "file": "/Users/Jose/AndroidStudioProjects/mememaker-miguel_alvaro_jose/app/src/main/res/values/styles.xml"
                 }
             }
         ]
