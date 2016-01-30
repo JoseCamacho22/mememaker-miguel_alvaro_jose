@@ -8,6 +8,7 @@ import android.os.Environment;
 import android.util.Log;
 
 import java.io.File;
+import java.io.FileFilter;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -63,7 +64,7 @@ public class FileUtilities {
     }
 
 
-    private static void copyFile (InputStream in, FileOutputStream out) throws IOException {
+    private static void copyFile(InputStream in, FileOutputStream out) throws IOException {
 
         byte[] buffer = new byte[TAM_BUFFER];
         int read;
@@ -73,8 +74,7 @@ public class FileUtilities {
     }
 
 
-
-    public static Uri saveImageForSharing(Context context, Bitmap bitmap,  String assetName) {
+    public static Uri saveImageForSharing(Context context, Bitmap bitmap, String assetName) {
         File fileToWrite = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES), assetName);
 
         try {
@@ -108,4 +108,25 @@ public class FileUtilities {
         }
     }
 
-}
+    public static File[] listFiles(Context context) {
+
+        File fileDirectory = context.getFilesDir();
+        File[] filteredFiles =
+                fileDirectory.listFiles(new FileFilter() {
+
+                    @Override
+                    public boolean accept(File pathname) {
+                        String name = pathname.getName()
+                                .toLowerCase();
+                        if (name.endsWith(".jpg"))
+                            return true;
+                        if (name.endsWith(".png"))
+                            return true;
+                        return false;
+                    }
+                });
+        return filteredFiles;
+    }
+
+
+    }

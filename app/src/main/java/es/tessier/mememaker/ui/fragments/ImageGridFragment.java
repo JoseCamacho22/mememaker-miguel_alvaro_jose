@@ -4,6 +4,8 @@ import android.app.AlertDialog;
 import android.app.Fragment;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.util.Log;
@@ -16,14 +18,15 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.GridView;
 
+import java.io.File;
+import java.util.ArrayList;
+
+import es.tessier.mememaker.R;
 import es.tessier.mememaker.adapters.GridViewAdapter;
 import es.tessier.mememaker.models.ImageGridItem;
 import es.tessier.mememaker.ui.activities.CreateMemeActivity;
 import es.tessier.mememaker.ui.activities.MemeSettingsActivity;
-import es.tessier.mememaker.R;
-
-import java.io.File;
-import java.util.ArrayList;
+import es.tessier.mememaker.utils.FileUtilities;
 
 
 public class ImageGridFragment extends Fragment {
@@ -66,8 +69,28 @@ public class ImageGridFragment extends Fragment {
 
     private ArrayList extractFiles() {
         final ArrayList imageItems = new ArrayList();
+/*obtenga la
+lista de ficheros mediante el método de FileUtilities que acabamos de crear.*/
+
+        File [] listaFicherosImagenes =
+                FileUtilities.listFiles(getActivity());
+        FileUtilities.listFiles(getActivity());
+
+        for(File file:listaFicherosImagenes){
+            Bitmap bitmap = BitmapFactory.decodeFile(
+                    file.getAbsolutePath());
+
+            ImageGridItem imageGridItem = new
+                    ImageGridItem(bitmap,file.getName(),
+                    file.getAbsolutePath());
+//añadiremos al arrayList el elemento ImageGridItem
+
+            imageItems.add(imageGridItem);
+        }
+
         return imageItems;
     }
+
 
     private void resetGridAdapter() {
         mGridAdapter = new GridViewAdapter(this.getActivity(), R.layout.view_grid, extractFiles());
