@@ -22,7 +22,9 @@ public class FileUtilities {
 
     public static void saveAssetImage(Context context, String assetName) {
         File fileDirectory = context.getFilesDir();
-        File fileToWrite = new File(fileDirectory,assetName);
+
+        File fileToWrite = new File(fileDirectory, assetName);
+
         AssetManager assetManager = context.getAssets();
 
         InputStream in = null;
@@ -31,14 +33,16 @@ public class FileUtilities {
         try {
             in = assetManager.open(assetName);
             out = context.openFileOutput(
-                    fileToWrite.getAbsolutePath(),
+                    fileToWrite.getName(),
                     context.MODE_PRIVATE);
+
             out = new FileOutputStream(fileToWrite);
 
+
         } catch (FileNotFoundException e) {
-            Log.e(TAG, "FileNotFoundException caught ", e);
+            Log.e("FileUtilities", "Fichero no encontrado", e);
         } catch (IOException e) {
-            Log.e(TAG,"IOException caught ",e);
+            Log.e(TAG, "Exception E/S", e);
         } finally {
 
             if (in != null)
@@ -51,8 +55,9 @@ public class FileUtilities {
                     out.close();
                 } catch (IOException e) {
                 }
-
         }
+
+
     }
 
     public static Uri saveImageForSharing(Context context, Bitmap bitmap,  String assetName) {
